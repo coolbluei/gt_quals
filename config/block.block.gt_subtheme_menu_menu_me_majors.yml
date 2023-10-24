@@ -2,12 +2,16 @@ uuid: 9e5288c9-32ab-40a9-91b3-49971db617ed
 langcode: en
 status: true
 dependencies:
+  config:
+    - system.menu.menu-me-majors
+  module:
+    - system
   theme:
     - gt
 id: gt_subtheme_menu_menu_me_majors
 theme: gt
-region: content
-weight: 0
+region: sidebar_first
+weight: -10
 provider: null
 plugin: 'system_menu_block:menu-me-majors'
 settings:
@@ -15,4 +19,7 @@ settings:
   label: ''
   label_display: '0'
   provider: core
+  level: 1
+  depth: 0
+  expand_all_items: false
 visibility: {  }

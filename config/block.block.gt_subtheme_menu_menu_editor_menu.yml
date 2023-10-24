@@ -2,14 +2,17 @@ uuid: 7ecd97a0-782b-4533-ab80-ccb6c30bcae2
 langcode: en
 status: true
 dependencies:
+  config:
+    - system.menu.menu-editor-menu
   module:
+    - system
     - user
   theme:
     - gt
 id: gt_subtheme_menu_menu_editor_menu
 theme: gt
 region: content
-weight: 0
+weight: -10
 provider: null
 plugin: 'system_menu_block:menu-editor-menu'
 settings:
@@ -17,6 +20,9 @@ settings:
   label: ''
   label_display: '0'
   provider: core
+  level: 1
+  depth: 0
+  expand_all_items: false
 visibility:
   user_role:
     id: user_role
