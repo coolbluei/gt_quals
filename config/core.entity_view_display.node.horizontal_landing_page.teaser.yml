@@ -1,0 +1,22 @@
+uuid: 3ec27274-b65f-43ba-ab22-8d61eba3dffe
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.horizontal_landing_page.field_body_1
+    - node.type.horizontal_landing_page
+  module:
+    - user
+id: node.horizontal_landing_page.teaser
+targetEntityType: node
+bundle: horizontal_landing_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_body_1: true

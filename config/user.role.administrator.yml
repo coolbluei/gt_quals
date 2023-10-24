@@ -1,0 +1,37 @@
+uuid: 95371ce1-df05-4300-a2db-5d3493959ff5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - block
+    - contact
+    - contextual
+    - node
+    - path
+    - system
+_core:
+  default_config_hash: YI6mxtWUak15TWzCAFn_xqTv9e-qqlJsf5E4QbgjVdo
+id: administrator
+label: Administrator
+weight: 4
+is_admin: true
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'administer blocks'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'create page content'
+  - 'create url aliases'
+  - 'delete any page content'
+  - 'delete own page content'
+  - 'edit any page content'
+  - 'edit own page content'
+  - 'view own unpublished content'

@@ -1,0 +1,24 @@
+uuid: 0cc09af6-5494-40c9-ac93-90e360eb2057
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_1
+    - node.type.vertical_landing_page
+  module:
+    - text
+id: node.vertical_landing_page.field_body_1
+field_name: field_body_1
+entity_type: node
+bundle: vertical_landing_page
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

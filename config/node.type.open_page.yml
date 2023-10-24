@@ -1,0 +1,19 @@
+uuid: 6557946a-41e1-4c7f-871a-40b2606952df
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - menu-me-majors
+      - main-menu
+    parent: 'main-menu:0:'
+name: 'Open page'
+type: open_page
+description: 'Use <em>open pages</em> for static content that is viewable to anonymous users.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

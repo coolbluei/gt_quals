@@ -1,0 +1,28 @@
+uuid: 87c35356-f511-4187-b2dd-62734d63e688
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.open_page.body
+    - node.type.open_page
+  module:
+    - text
+    - user
+id: node.open_page.default
+targetEntityType: node
+bundle: open_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

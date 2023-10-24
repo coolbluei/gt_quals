@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+langcode: en
+uuid: ad8d7558-c578-4280-b95f-e37b5055aed2
+name: 'Woodruff School Qualifying Exams | Georgia Institute of Technology | Atlanta, GA'
+mail: marlena.frank@me.gatech.edu
+slogan: ''
+page:
+  403: /node/3
+  404: /node/4
+  front: /node/37
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

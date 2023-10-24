@@ -1,0 +1,28 @@
+uuid: 8e4083ba-f78d-4c11-b943-7b5ff1753f94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.horizontal_landing_page.field_body_1
+    - node.type.horizontal_landing_page
+  module:
+    - text
+    - user
+id: node.horizontal_landing_page.default
+targetEntityType: node
+bundle: horizontal_landing_page
+mode: default
+content:
+  field_body_1:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

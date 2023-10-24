@@ -1,0 +1,71 @@
+uuid: 03c853bc-0c82-4d05-b8c8-689910dd1e42
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - action
+    - block
+    - comment
+    - contact
+    - contextual
+    - filter
+    - image
+    - node
+    - path
+    - shortcut
+    - system
+    - taxonomy
+    - views_ui
+id: super_administrator
+label: 'Super Administrator'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access site-wide contact form'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'administer actions'
+  - 'administer blocks'
+  - 'administer comments'
+  - 'administer contact forms'
+  - 'administer content types'
+  - 'administer filters'
+  - 'administer image styles'
+  - 'administer menu'
+  - 'administer modules'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer shortcuts'
+  - 'administer site configuration'
+  - 'administer software updates'
+  - 'administer taxonomy'
+  - 'administer themes'
+  - 'administer url aliases'
+  - 'administer users'
+  - 'administer views'
+  - 'bypass node access'
+  - 'cancel account'
+  - 'change own username'
+  - 'create page content'
+  - 'create url aliases'
+  - 'customize shortcut links'
+  - 'delete any page content'
+  - 'delete own page content'
+  - 'edit any page content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'post comments'
+  - 'select account cancellation method'
+  - 'skip comment approval'
+  - 'switch shortcut sets'
+  - 'view own unpublished content'
+  - 'view the administration theme'

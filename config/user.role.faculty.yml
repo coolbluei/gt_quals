@@ -1,0 +1,12 @@
+uuid: 30b6eed7-d7ff-4895-911d-c04aedf1fedd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: faculty
+label: faculty
+weight: 7
+is_admin: null
+permissions:
+  - 'access content'

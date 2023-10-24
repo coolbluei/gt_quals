@@ -1,0 +1,20 @@
+uuid: 11aac889-52ab-4f16-82a3-8762fb4595af
+langcode: en
+status: true
+dependencies: {  }
+name: 'basic text editor'
+format: text_editor_basic
+weight: -10
+filters:
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: -46
+    settings: {  }
+  filter_null:
+    id: filter_null
+    provider: filter
+    status: true
+    weight: -43
+    settings: {  }

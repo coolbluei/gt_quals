@@ -1,0 +1,29 @@
+uuid: 7ecd97a0-782b-4533-ab80-ccb6c30bcae2
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - gt
+id: gt_subtheme_menu_menu_editor_menu
+theme: gt
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-editor-menu'
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      3: '3'
+      4: '4'
+      5: '5'

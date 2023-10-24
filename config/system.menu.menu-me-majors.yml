@@ -1,0 +1,8 @@
+uuid: 3c0dcc34-c0ac-4609-a9d4-b6fdce48b538
+langcode: en
+status: true
+dependencies: {  }
+id: menu-me-majors
+label: 'ME Majors'
+description: ''
+locked: false

@@ -1,0 +1,28 @@
+uuid: 95469d8b-eb0d-4d57-a7b0-96b579fedea8
+langcode: en
+status: false
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - block
+    - contact
+    - contextual
+    - node
+    - system
+_core:
+  default_config_hash: PDIHoyaQ6PCoTZDTm3rt0VnHqOASPRJc6bbk-dqUA7k
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access site in maintenance mode'
+  - 'access site-wide contact form'
+  - 'administer blocks'
+  - 'administer menu'
+  - 'create page content'
+  - 'edit any page content'
+  - 'view own unpublished content'
